@@ -1,0 +1,55 @@
+
+======================================================================================
+SOFTWARE FJ | SIMULACIÓN AUTOMÁTICA DE OPERACIONES
+======================================================================================
+01. Registrar cliente válido C001
+    Resultado: CORRECTO | APROBADA
+02. Rechazar cliente con nombre vacío
+    Resultado: ERROR CONTROLADO (DatoInvalidoError) | APROBADA
+03. Registrar segundo cliente C003
+    Resultado: CORRECTO | APROBADA
+04. Rechazar cliente duplicado C001
+    Resultado: ERROR CONTROLADO (EntidadDuplicadaError) | APROBADA
+05. Registrar sala SAL01
+    Resultado: CORRECTO | APROBADA
+06. Rechazar equipo de tarifa negativa
+    Resultado: ERROR CONTROLADO (CalculoInvalidoError) | APROBADA
+07. Registrar equipo EQ01
+    Resultado: CORRECTO | APROBADA
+08. Registrar asesoría ASE01
+    Resultado: CORRECTO | APROBADA
+09. Crear reserva válida R001
+    Resultado: CORRECTO [Reserva R001: cliente C001, servicio SAL01, 2 hora(s), estado PENDIENTE] | APROBADA
+10. Confirmar reserva R001
+    Resultado: CORRECTO | APROBADA
+11. Procesar R001 con descuento 10% e impuesto 19%
+    Resultado: CORRECTO [107100.00] | APROBADA
+12. Rechazar reserva de cliente inexistente
+    Resultado: ERROR CONTROLADO (EntidadNoEncontradaError) | APROBADA
+13. Rechazar reserva de duración cero
+    Resultado: ERROR CONTROLADO (DatoInvalidoError) | APROBADA
+14. Crear reserva de asesoría R004
+    Resultado: CORRECTO [Reserva R004: cliente C003, servicio ASE01, 1 hora(s), estado PENDIENTE] | APROBADA
+15. Confirmar asesoría R004
+    Resultado: CORRECTO | APROBADA
+16. Cancelar asesoría R004
+    Resultado: CORRECTO | APROBADA
+17. Rechazar procesamiento de reserva cancelada
+    Resultado: ERROR CONTROLADO (OperacionNoPermitidaError) | APROBADA
+18. Deshabilitar servicio ASE01
+    Resultado: CORRECTO | APROBADA
+19. Rechazar reserva de servicio no disponible
+    Resultado: ERROR CONTROLADO (ServicioNoDisponibleError) | APROBADA
+20. Rechazar descuento superior a 100%
+    Resultado: ERROR CONTROLADO (CalculoInvalidoError) | APROBADA
+21. Crear reserva de equipo R006
+    Resultado: CORRECTO [Reserva R006: cliente C003, servicio EQ01, 3 hora(s), estado PENDIENTE] | APROBADA
+22. Rechazar cancelar reserva procesada R001
+    Resultado: ERROR CONTROLADO (OperacionNoPermitidaError) | APROBADA
+23. Confirmar equipo R006
+    Resultado: CORRECTO | APROBADA
+24. Procesar alquiler de equipo R006
+    Resultado: CORRECTO [117000.00] | APROBADA
+--------------------------------------------------------------------------------------
+Total: 24 | Correctas según expectativa: 24 | Fallidas: 0
+Eventos y errores registrados en logs/software_fj.log

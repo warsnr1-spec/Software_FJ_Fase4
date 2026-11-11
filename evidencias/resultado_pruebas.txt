@@ -1,0 +1,42 @@
+test_demostracion_24_operaciones (test_sistema.PruebaDemostracion.test_demostracion_24_operaciones) ... ok
+test_correo_invalido (test_sistema.PruebasCliente.test_correo_invalido) ... ok
+test_encapsulacion_setter (test_sistema.PruebasCliente.test_encapsulacion_setter) ... ok
+test_entidad_es_abstracta (test_sistema.PruebasCliente.test_entidad_es_abstracta) ... ok
+test_id_invalido (test_sistema.PruebasCliente.test_id_invalido) ... ok
+test_nombre_vacio (test_sistema.PruebasCliente.test_nombre_vacio) ... ok
+test_registra_cliente_valido (test_sistema.PruebasCliente.test_registra_cliente_valido) ... ok
+test_telefono_invalido (test_sistema.PruebasCliente.test_telefono_invalido) ... ok
+test_flujo_gestor (test_sistema.PruebasGestor.test_flujo_gestor) ... ok
+test_gestor_cliente_duplicado (test_sistema.PruebasGestor.test_gestor_cliente_duplicado) ... ok
+test_gestor_registros_en_listas (test_sistema.PruebasGestor.test_gestor_registros_en_listas) ... ok
+test_gestor_reserva_inexistente (test_sistema.PruebasGestor.test_gestor_reserva_inexistente) ... ok
+test_no_almacena_reserva_invalida (test_sistema.PruebasGestor.test_no_almacena_reserva_invalida) ... ok
+test_no_repite_id_reserva (test_sistema.PruebasGestor.test_no_repite_id_reserva) ... ok
+test_cancelar_pendiente (test_sistema.PruebasReservas.test_cancelar_pendiente) ... ok
+test_confirmar_y_procesar (test_sistema.PruebasReservas.test_confirmar_y_procesar) ... ok
+test_error_en_calculo_no_cambia_estado (test_sistema.PruebasReservas.test_error_en_calculo_no_cambia_estado) ... ok
+test_no_cancelar_procesada (test_sistema.PruebasReservas.test_no_cancelar_procesada) ... ok
+test_no_confirmar_dos_veces (test_sistema.PruebasReservas.test_no_confirmar_dos_veces) ... ok
+test_no_procesar_cancelada (test_sistema.PruebasReservas.test_no_procesar_cancelada) ... ok
+test_no_procesar_pendiente (test_sistema.PruebasReservas.test_no_procesar_pendiente) ... ok
+test_reserva_inicialmente_pendiente (test_sistema.PruebasReservas.test_reserva_inicialmente_pendiente) ... ok
+test_asesoria_duracion_maxima (test_sistema.PruebasServicios.test_asesoria_duracion_maxima) ... ok
+test_asesoria_precio (test_sistema.PruebasServicios.test_asesoria_precio) ... ok
+test_descuento_fuera_de_rango (test_sistema.PruebasServicios.test_descuento_fuera_de_rango) ... ok
+test_descuento_infinito (test_sistema.PruebasServicios.test_descuento_infinito) ... ok
+test_disponibilidad (test_sistema.PruebasServicios.test_disponibilidad) ... ok
+test_encadenamiento_de_excepcion (test_sistema.PruebasServicios.test_encadenamiento_de_excepcion) ... ok
+test_equipo_duracion_maxima (test_sistema.PruebasServicios.test_equipo_duracion_maxima) ... ok
+test_equipo_incluye_preparacion (test_sistema.PruebasServicios.test_equipo_incluye_preparacion) ... ok
+test_impuesto_invalido (test_sistema.PruebasServicios.test_impuesto_invalido) ... ok
+test_no_acepta_duracion_booleana (test_sistema.PruebasServicios.test_no_acepta_duracion_booleana) ... ok
+test_polimorfismo_de_descripcion (test_sistema.PruebasServicios.test_polimorfismo_de_descripcion) ... ok
+test_sala_costo_base (test_sistema.PruebasServicios.test_sala_costo_base) ... ok
+test_sala_costo_con_descuento_e_impuesto (test_sistema.PruebasServicios.test_sala_costo_con_descuento_e_impuesto) ... ok
+test_sala_duracion_maxima (test_sistema.PruebasServicios.test_sala_duracion_maxima) ... ok
+test_tarifa_negativa (test_sistema.PruebasServicios.test_tarifa_negativa) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.005s
+
+OK

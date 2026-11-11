@@ -1,0 +1,325 @@
+2026-11-11 03:02:51,865 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:02:51,865 | ERROR | Operación de demostración Rechazar cliente con nombre vacío: Nombre debe tener mínimo 2 caracteres.
+2026-11-11 03:02:51,865 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:02:51,865 | ERROR | agregar_cliente falló (EntidadDuplicadaError): El cliente C001 ya está registrado.
+2026-11-11 03:02:51,865 | ERROR | Operación de demostración Rechazar cliente duplicado C001: El cliente C001 ya está registrado.
+2026-11-11 03:02:51,865 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:51,865 | ERROR | Operación de demostración Rechazar equipo de tarifa negativa: Tarifa por hora debe ser mayor que cero.
+2026-11-11 03:02:51,865 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:51,865 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:51,865 | INFO | Operación completada: crear_reserva
+2026-11-11 03:02:51,865 | INFO | Reserva R001 confirmada
+2026-11-11 03:02:51,865 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:02:51,865 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:02:51,865 | INFO | Reserva R001 procesada por total $ 107100.00
+2026-11-11 03:02:51,865 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:02:51,865 | INFO | Operación completada: procesar_reserva
+2026-11-11 03:02:51,865 | ERROR | crear_reserva falló (EntidadNoEncontradaError): No existe el cliente C999.
+2026-11-11 03:02:51,865 | ERROR | Operación de demostración Rechazar reserva de cliente inexistente: No existe el cliente C999.
+2026-11-11 03:02:51,865 | ERROR | crear_reserva falló (DatoInvalidoError): Duración de la reserva debe ser un número entero positivo.
+2026-11-11 03:02:51,865 | ERROR | Operación de demostración Rechazar reserva de duración cero: Duración de la reserva debe ser un número entero positivo.
+2026-11-11 03:02:51,865 | INFO | Operación completada: crear_reserva
+2026-11-11 03:02:51,865 | INFO | Reserva R004 confirmada
+2026-11-11 03:02:51,865 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:02:51,865 | INFO | Reserva R004 cancelada
+2026-11-11 03:02:51,865 | INFO | Operación completada: cancelar_reserva
+2026-11-11 03:02:51,865 | INFO | Inicia procesamiento de reserva R004
+2026-11-11 03:02:51,865 | ERROR | Excepción controlada al procesar reserva R004
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/software_fj/reserva.py", line 77, in procesar
+    raise OperacionNoPermitidaError("La reserva debe estar confirmada antes de procesar.")
+software_fj.excepciones.OperacionNoPermitidaError: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:02:51,866 | INFO | Finalizó intento de procesamiento de reserva R004
+2026-11-11 03:02:51,866 | ERROR | procesar_reserva falló (OperacionNoPermitidaError): La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:02:51,866 | ERROR | Operación de demostración Rechazar procesamiento de reserva cancelada: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:02:51,866 | INFO | Operación completada: cambiar_disponibilidad
+2026-11-11 03:02:51,866 | ERROR | crear_reserva falló (ServicioNoDisponibleError): El servicio ASE01 no está disponible.
+2026-11-11 03:02:51,866 | ERROR | Operación de demostración Rechazar reserva de servicio no disponible: El servicio ASE01 no está disponible.
+2026-11-11 03:02:51,866 | ERROR | Operación de demostración Rechazar descuento superior a 100%: Descuento debe estar entre 0 y 100 %.
+2026-11-11 03:02:51,866 | INFO | Operación completada: crear_reserva
+2026-11-11 03:02:51,866 | ERROR | cancelar_reserva falló (OperacionNoPermitidaError): La reserva no puede cancelarse en su estado actual.
+2026-11-11 03:02:51,866 | ERROR | Operación de demostración Rechazar cancelar reserva procesada R001: La reserva no puede cancelarse en su estado actual.
+2026-11-11 03:02:51,866 | INFO | Reserva R006 confirmada
+2026-11-11 03:02:51,866 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:02:51,866 | INFO | Inicia procesamiento de reserva R006
+2026-11-11 03:02:51,866 | INFO | Reserva R006 procesada por total $ 117000.00
+2026-11-11 03:02:51,866 | INFO | Finalizó intento de procesamiento de reserva R006
+2026-11-11 03:02:51,866 | INFO | Operación completada: procesar_reserva
+2026-11-11 03:02:52,635 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:02:52,636 | ERROR | Operación de demostración Rechazar cliente con nombre vacío: Nombre debe tener mínimo 2 caracteres.
+2026-11-11 03:02:52,636 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:02:52,636 | ERROR | agregar_cliente falló (EntidadDuplicadaError): El cliente C001 ya está registrado.
+2026-11-11 03:02:52,636 | ERROR | Operación de demostración Rechazar cliente duplicado C001: El cliente C001 ya está registrado.
+2026-11-11 03:02:52,636 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:52,636 | ERROR | Operación de demostración Rechazar equipo de tarifa negativa: Tarifa por hora debe ser mayor que cero.
+2026-11-11 03:02:52,636 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:52,636 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:52,636 | INFO | Operación completada: crear_reserva
+2026-11-11 03:02:52,636 | INFO | Reserva R001 confirmada
+2026-11-11 03:02:52,636 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:02:52,636 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:02:52,636 | INFO | Reserva R001 procesada por total $ 107100.00
+2026-11-11 03:02:52,636 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:02:52,636 | INFO | Operación completada: procesar_reserva
+2026-11-11 03:02:52,636 | ERROR | crear_reserva falló (EntidadNoEncontradaError): No existe el cliente C999.
+2026-11-11 03:02:52,636 | ERROR | Operación de demostración Rechazar reserva de cliente inexistente: No existe el cliente C999.
+2026-11-11 03:02:52,636 | ERROR | crear_reserva falló (DatoInvalidoError): Duración de la reserva debe ser un número entero positivo.
+2026-11-11 03:02:52,636 | ERROR | Operación de demostración Rechazar reserva de duración cero: Duración de la reserva debe ser un número entero positivo.
+2026-11-11 03:02:52,636 | INFO | Operación completada: crear_reserva
+2026-11-11 03:02:52,636 | INFO | Reserva R004 confirmada
+2026-11-11 03:02:52,636 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:02:52,636 | INFO | Reserva R004 cancelada
+2026-11-11 03:02:52,636 | INFO | Operación completada: cancelar_reserva
+2026-11-11 03:02:52,636 | INFO | Inicia procesamiento de reserva R004
+2026-11-11 03:02:52,636 | ERROR | Excepción controlada al procesar reserva R004
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/software_fj/reserva.py", line 77, in procesar
+    raise OperacionNoPermitidaError("La reserva debe estar confirmada antes de procesar.")
+software_fj.excepciones.OperacionNoPermitidaError: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:02:52,636 | INFO | Finalizó intento de procesamiento de reserva R004
+2026-11-11 03:02:52,636 | ERROR | procesar_reserva falló (OperacionNoPermitidaError): La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:02:52,636 | ERROR | Operación de demostración Rechazar procesamiento de reserva cancelada: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:02:52,636 | INFO | Operación completada: cambiar_disponibilidad
+2026-11-11 03:02:52,636 | ERROR | crear_reserva falló (ServicioNoDisponibleError): El servicio ASE01 no está disponible.
+2026-11-11 03:02:52,636 | ERROR | Operación de demostración Rechazar reserva de servicio no disponible: El servicio ASE01 no está disponible.
+2026-11-11 03:02:52,637 | ERROR | Operación de demostración Rechazar descuento superior a 100%: Descuento debe estar entre 0 y 100 %.
+2026-11-11 03:02:52,637 | INFO | Operación completada: crear_reserva
+2026-11-11 03:02:52,637 | ERROR | cancelar_reserva falló (OperacionNoPermitidaError): La reserva no puede cancelarse en su estado actual.
+2026-11-11 03:02:52,637 | ERROR | Operación de demostración Rechazar cancelar reserva procesada R001: La reserva no puede cancelarse en su estado actual.
+2026-11-11 03:02:52,637 | INFO | Reserva R006 confirmada
+2026-11-11 03:02:52,637 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:02:52,637 | INFO | Inicia procesamiento de reserva R006
+2026-11-11 03:02:52,637 | INFO | Reserva R006 procesada por total $ 117000.00
+2026-11-11 03:02:52,637 | INFO | Finalizó intento de procesamiento de reserva R006
+2026-11-11 03:02:52,637 | INFO | Operación completada: procesar_reserva
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:52,637 | INFO | Operación completada: crear_reserva
+2026-11-11 03:02:52,637 | INFO | Reserva R001 confirmada
+2026-11-11 03:02:52,637 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:02:52,637 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:02:52,637 | INFO | Reserva R001 procesada por total $ 150000.00
+2026-11-11 03:02:52,637 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:02:52,637 | INFO | Operación completada: procesar_reserva
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:52,637 | ERROR | agregar_cliente falló (EntidadDuplicadaError): El cliente C001 ya está registrado.
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:52,637 | ERROR | confirmar_reserva falló (EntidadNoEncontradaError): No existe la reserva R999.
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:52,637 | ERROR | crear_reserva falló (DatoInvalidoError): Duración de la reserva debe ser un número entero positivo.
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:02:52,637 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:02:52,637 | INFO | Operación completada: crear_reserva
+2026-11-11 03:02:52,637 | ERROR | crear_reserva falló (EntidadDuplicadaError): La reserva R001 ya está registrada.
+2026-11-11 03:02:52,637 | INFO | Reserva R001 cancelada
+2026-11-11 03:02:52,637 | INFO | Reserva R001 confirmada
+2026-11-11 03:02:52,637 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:02:52,638 | INFO | Reserva R001 procesada por total $ 107100.00
+2026-11-11 03:02:52,638 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:02:52,638 | INFO | Reserva R001 confirmada
+2026-11-11 03:02:52,638 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:02:52,638 | ERROR | Excepción controlada al procesar reserva R001
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/software_fj/reserva.py", line 78, in procesar
+    total_calculado = self._servicio.calcular_costo(self._duracion, descuento, impuesto)
+  File "/mnt/data/Software_FJ_Fase4/software_fj/servicios.py", line 96, in calcular_costo
+    return self._total(self.tarifa_hora * duracion, descuento, impuesto)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/software_fj/servicios.py", line 54, in _total
+    desc = porcentaje(descuento, "Descuento")
+  File "/mnt/data/Software_FJ_Fase4/software_fj/validaciones.py", line 71, in porcentaje
+    raise CalculoInvalidoError(f"{nombre} debe estar entre 0 y 100 %.")
+software_fj.excepciones.CalculoInvalidoError: Descuento debe estar entre 0 y 100 %.
+2026-11-11 03:02:52,638 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:02:52,638 | INFO | Reserva R001 confirmada
+2026-11-11 03:02:52,638 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:02:52,638 | INFO | Reserva R001 procesada por total $ 100000.00
+2026-11-11 03:02:52,638 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:02:52,638 | INFO | Reserva R001 confirmada
+2026-11-11 03:02:52,638 | INFO | Reserva R001 cancelada
+2026-11-11 03:02:52,638 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:02:52,638 | ERROR | Excepción controlada al procesar reserva R001
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/software_fj/reserva.py", line 77, in procesar
+    raise OperacionNoPermitidaError("La reserva debe estar confirmada antes de procesar.")
+software_fj.excepciones.OperacionNoPermitidaError: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:02:52,639 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:02:52,639 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:02:52,639 | ERROR | Excepción controlada al procesar reserva R001
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/software_fj/reserva.py", line 77, in procesar
+    raise OperacionNoPermitidaError("La reserva debe estar confirmada antes de procesar.")
+software_fj.excepciones.OperacionNoPermitidaError: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:02:52,639 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:04:00,205 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:04:00,205 | ERROR | Operación de demostración Rechazar cliente con nombre vacío: Nombre debe tener mínimo 2 caracteres.
+2026-11-11 03:04:00,205 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:04:00,205 | ERROR | agregar_cliente falló (EntidadDuplicadaError): El cliente C001 ya está registrado.
+2026-11-11 03:04:00,205 | ERROR | Operación de demostración Rechazar cliente duplicado C001: El cliente C001 ya está registrado.
+2026-11-11 03:04:00,205 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,205 | ERROR | Operación de demostración Rechazar equipo de tarifa negativa: Tarifa por hora debe ser mayor que cero.
+2026-11-11 03:04:00,205 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,205 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,205 | INFO | Operación completada: crear_reserva
+2026-11-11 03:04:00,205 | INFO | Reserva R001 confirmada
+2026-11-11 03:04:00,205 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:04:00,205 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:04:00,205 | INFO | Reserva R001 procesada por total $ 107100.00
+2026-11-11 03:04:00,206 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:04:00,206 | INFO | Operación completada: procesar_reserva
+2026-11-11 03:04:00,206 | ERROR | crear_reserva falló (EntidadNoEncontradaError): No existe el cliente C999.
+2026-11-11 03:04:00,206 | ERROR | Operación de demostración Rechazar reserva de cliente inexistente: No existe el cliente C999.
+2026-11-11 03:04:00,206 | ERROR | crear_reserva falló (DatoInvalidoError): Duración de la reserva debe ser un número entero positivo.
+2026-11-11 03:04:00,206 | ERROR | Operación de demostración Rechazar reserva de duración cero: Duración de la reserva debe ser un número entero positivo.
+2026-11-11 03:04:00,206 | INFO | Operación completada: crear_reserva
+2026-11-11 03:04:00,206 | INFO | Reserva R004 confirmada
+2026-11-11 03:04:00,206 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:04:00,206 | INFO | Reserva R004 cancelada
+2026-11-11 03:04:00,206 | INFO | Operación completada: cancelar_reserva
+2026-11-11 03:04:00,206 | INFO | Inicia procesamiento de reserva R004
+2026-11-11 03:04:00,206 | ERROR | Excepción controlada al procesar reserva R004
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/software_fj/reserva.py", line 77, in procesar
+    raise OperacionNoPermitidaError("La reserva debe estar confirmada antes de procesar.")
+software_fj.excepciones.OperacionNoPermitidaError: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:04:00,206 | INFO | Finalizó intento de procesamiento de reserva R004
+2026-11-11 03:04:00,206 | ERROR | procesar_reserva falló (OperacionNoPermitidaError): La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:04:00,206 | ERROR | Operación de demostración Rechazar procesamiento de reserva cancelada: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:04:00,206 | INFO | Operación completada: cambiar_disponibilidad
+2026-11-11 03:04:00,206 | ERROR | crear_reserva falló (ServicioNoDisponibleError): El servicio ASE01 no está disponible.
+2026-11-11 03:04:00,206 | ERROR | Operación de demostración Rechazar reserva de servicio no disponible: El servicio ASE01 no está disponible.
+2026-11-11 03:04:00,206 | ERROR | Operación de demostración Rechazar descuento superior a 100%: Descuento debe estar entre 0 y 100 %.
+2026-11-11 03:04:00,206 | INFO | Operación completada: crear_reserva
+2026-11-11 03:04:00,206 | ERROR | cancelar_reserva falló (OperacionNoPermitidaError): La reserva no puede cancelarse en su estado actual.
+2026-11-11 03:04:00,206 | ERROR | Operación de demostración Rechazar cancelar reserva procesada R001: La reserva no puede cancelarse en su estado actual.
+2026-11-11 03:04:00,206 | INFO | Reserva R006 confirmada
+2026-11-11 03:04:00,206 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:04:00,206 | INFO | Inicia procesamiento de reserva R006
+2026-11-11 03:04:00,206 | INFO | Reserva R006 procesada por total $ 117000.00
+2026-11-11 03:04:00,206 | INFO | Finalizó intento de procesamiento de reserva R006
+2026-11-11 03:04:00,206 | INFO | Operación completada: procesar_reserva
+2026-11-11 03:04:00,923 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:04:00,924 | ERROR | Operación de demostración Rechazar cliente con nombre vacío: Nombre debe tener mínimo 2 caracteres.
+2026-11-11 03:04:00,924 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:04:00,924 | ERROR | agregar_cliente falló (EntidadDuplicadaError): El cliente C001 ya está registrado.
+2026-11-11 03:04:00,924 | ERROR | Operación de demostración Rechazar cliente duplicado C001: El cliente C001 ya está registrado.
+2026-11-11 03:04:00,924 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,924 | ERROR | Operación de demostración Rechazar equipo de tarifa negativa: Tarifa por hora debe ser mayor que cero.
+2026-11-11 03:04:00,924 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,924 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,924 | INFO | Operación completada: crear_reserva
+2026-11-11 03:04:00,924 | INFO | Reserva R001 confirmada
+2026-11-11 03:04:00,924 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:04:00,924 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:04:00,924 | INFO | Reserva R001 procesada por total $ 107100.00
+2026-11-11 03:04:00,924 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:04:00,924 | INFO | Operación completada: procesar_reserva
+2026-11-11 03:04:00,924 | ERROR | crear_reserva falló (EntidadNoEncontradaError): No existe el cliente C999.
+2026-11-11 03:04:00,924 | ERROR | Operación de demostración Rechazar reserva de cliente inexistente: No existe el cliente C999.
+2026-11-11 03:04:00,924 | ERROR | crear_reserva falló (DatoInvalidoError): Duración de la reserva debe ser un número entero positivo.
+2026-11-11 03:04:00,924 | ERROR | Operación de demostración Rechazar reserva de duración cero: Duración de la reserva debe ser un número entero positivo.
+2026-11-11 03:04:00,924 | INFO | Operación completada: crear_reserva
+2026-11-11 03:04:00,924 | INFO | Reserva R004 confirmada
+2026-11-11 03:04:00,924 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:04:00,924 | INFO | Reserva R004 cancelada
+2026-11-11 03:04:00,924 | INFO | Operación completada: cancelar_reserva
+2026-11-11 03:04:00,924 | INFO | Inicia procesamiento de reserva R004
+2026-11-11 03:04:00,924 | ERROR | Excepción controlada al procesar reserva R004
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/software_fj/reserva.py", line 77, in procesar
+    raise OperacionNoPermitidaError("La reserva debe estar confirmada antes de procesar.")
+software_fj.excepciones.OperacionNoPermitidaError: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:04:00,925 | INFO | Finalizó intento de procesamiento de reserva R004
+2026-11-11 03:04:00,925 | ERROR | procesar_reserva falló (OperacionNoPermitidaError): La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:04:00,925 | ERROR | Operación de demostración Rechazar procesamiento de reserva cancelada: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:04:00,925 | INFO | Operación completada: cambiar_disponibilidad
+2026-11-11 03:04:00,925 | ERROR | crear_reserva falló (ServicioNoDisponibleError): El servicio ASE01 no está disponible.
+2026-11-11 03:04:00,925 | ERROR | Operación de demostración Rechazar reserva de servicio no disponible: El servicio ASE01 no está disponible.
+2026-11-11 03:04:00,925 | ERROR | Operación de demostración Rechazar descuento superior a 100%: Descuento debe estar entre 0 y 100 %.
+2026-11-11 03:04:00,925 | INFO | Operación completada: crear_reserva
+2026-11-11 03:04:00,925 | ERROR | cancelar_reserva falló (OperacionNoPermitidaError): La reserva no puede cancelarse en su estado actual.
+2026-11-11 03:04:00,925 | ERROR | Operación de demostración Rechazar cancelar reserva procesada R001: La reserva no puede cancelarse en su estado actual.
+2026-11-11 03:04:00,925 | INFO | Reserva R006 confirmada
+2026-11-11 03:04:00,925 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:04:00,925 | INFO | Inicia procesamiento de reserva R006
+2026-11-11 03:04:00,925 | INFO | Reserva R006 procesada por total $ 117000.00
+2026-11-11 03:04:00,925 | INFO | Finalizó intento de procesamiento de reserva R006
+2026-11-11 03:04:00,925 | INFO | Operación completada: procesar_reserva
+2026-11-11 03:04:00,925 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:04:00,925 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,925 | INFO | Operación completada: crear_reserva
+2026-11-11 03:04:00,925 | INFO | Reserva R001 confirmada
+2026-11-11 03:04:00,925 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:04:00,925 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:04:00,925 | INFO | Reserva R001 procesada por total $ 150000.00
+2026-11-11 03:04:00,925 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:04:00,925 | INFO | Operación completada: procesar_reserva
+2026-11-11 03:04:00,926 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:04:00,926 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,926 | ERROR | agregar_cliente falló (EntidadDuplicadaError): El cliente C001 ya está registrado.
+2026-11-11 03:04:00,926 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:04:00,926 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,926 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:04:00,926 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,926 | ERROR | confirmar_reserva falló (EntidadNoEncontradaError): No existe la reserva R999.
+2026-11-11 03:04:00,926 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:04:00,926 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,926 | ERROR | crear_reserva falló (DatoInvalidoError): Duración de la reserva debe ser un número entero positivo.
+2026-11-11 03:04:00,926 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:04:00,926 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:04:00,926 | INFO | Operación completada: crear_reserva
+2026-11-11 03:04:00,926 | ERROR | crear_reserva falló (EntidadDuplicadaError): La reserva R001 ya está registrada.
+2026-11-11 03:04:00,926 | INFO | Reserva R001 cancelada
+2026-11-11 03:04:00,926 | INFO | Reserva R001 confirmada
+2026-11-11 03:04:00,926 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:04:00,926 | INFO | Reserva R001 procesada por total $ 107100.00
+2026-11-11 03:04:00,926 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:04:00,926 | INFO | Reserva R001 confirmada
+2026-11-11 03:04:00,926 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:04:00,926 | ERROR | Excepción controlada al procesar reserva R001
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/software_fj/reserva.py", line 78, in procesar
+    total_calculado = self._servicio.calcular_costo(self._duracion, descuento, impuesto)
+  File "/mnt/data/Software_FJ_Fase4/software_fj/servicios.py", line 96, in calcular_costo
+    return self._total(self.tarifa_hora * duracion, descuento, impuesto)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/data/Software_FJ_Fase4/software_fj/servicios.py", line 54, in _total
+    desc = porcentaje(descuento, "Descuento")
+  File "/mnt/data/Software_FJ_Fase4/software_fj/validaciones.py", line 71, in porcentaje
+    raise CalculoInvalidoError(f"{nombre} debe estar entre 0 y 100 %.")
+software_fj.excepciones.CalculoInvalidoError: Descuento debe estar entre 0 y 100 %.
+2026-11-11 03:04:00,927 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:04:00,927 | INFO | Reserva R001 confirmada
+2026-11-11 03:04:00,927 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:04:00,927 | INFO | Reserva R001 procesada por total $ 100000.00
+2026-11-11 03:04:00,927 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:04:00,927 | INFO | Reserva R001 confirmada
+2026-11-11 03:04:00,927 | INFO | Reserva R001 cancelada
+2026-11-11 03:04:00,927 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:04:00,927 | ERROR | Excepción controlada al procesar reserva R001
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/software_fj/reserva.py", line 77, in procesar
+    raise OperacionNoPermitidaError("La reserva debe estar confirmada antes de procesar.")
+software_fj.excepciones.OperacionNoPermitidaError: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:04:00,927 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:04:00,927 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:04:00,927 | ERROR | Excepción controlada al procesar reserva R001
+Traceback (most recent call last):
+  File "/mnt/data/Software_FJ_Fase4/software_fj/reserva.py", line 77, in procesar
+    raise OperacionNoPermitidaError("La reserva debe estar confirmada antes de procesar.")
+software_fj.excepciones.OperacionNoPermitidaError: La reserva debe estar confirmada antes de procesar.
+2026-11-11 03:04:00,927 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:06:16,029 | INFO | Operación completada: agregar_cliente
+2026-11-11 03:06:16,029 | INFO | Operación completada: agregar_servicio
+2026-11-11 03:06:16,030 | INFO | Operación completada: crear_reserva
+2026-11-11 03:06:16,030 | INFO | Reserva R001 confirmada
+2026-11-11 03:06:16,030 | INFO | Operación completada: confirmar_reserva
+2026-11-11 03:06:16,030 | INFO | Inicia procesamiento de reserva R001
+2026-11-11 03:06:16,030 | INFO | Reserva R001 procesada por total $ 107100.00
+2026-11-11 03:06:16,030 | INFO | Finalizó intento de procesamiento de reserva R001
+2026-11-11 03:06:16,030 | INFO | Operación completada: procesar_reserva

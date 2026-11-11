@@ -1,0 +1,106 @@
+
+SOFTWARE FJ
+1. Registrar cliente
+2. Registrar servicio
+3. Crear reserva
+4. Confirmar reserva
+5. Procesar reserva
+6. Cancelar reserva
+7. Listar registros
+8. Habilitar o deshabilitar servicio
+9. Ejecutar demostración independiente
+0. Salir
+
+Seleccione una opción: Código cliente: Nombre: Correo: Celular: Operación completada correctamente.
+
+SOFTWARE FJ
+1. Registrar cliente
+2. Registrar servicio
+3. Crear reserva
+4. Confirmar reserva
+5. Procesar reserva
+6. Cancelar reserva
+7. Listar registros
+8. Habilitar o deshabilitar servicio
+9. Ejecutar demostración independiente
+0. Salir
+
+Seleccione una opción: Tipo [sala/equipo/asesoria]: Código: Nombre: Tarifa por hora (COP): Capacidad: Operación completada correctamente.
+
+SOFTWARE FJ
+1. Registrar cliente
+2. Registrar servicio
+3. Crear reserva
+4. Confirmar reserva
+5. Procesar reserva
+6. Cancelar reserva
+7. Listar registros
+8. Habilitar o deshabilitar servicio
+9. Ejecutar demostración independiente
+0. Salir
+
+Seleccione una opción: Código reserva: Código cliente: Código servicio: Duración en horas: Creada: Reserva R001: cliente C001, servicio S001, 2 hora(s), estado PENDIENTE
+
+SOFTWARE FJ
+1. Registrar cliente
+2. Registrar servicio
+3. Crear reserva
+4. Confirmar reserva
+5. Procesar reserva
+6. Cancelar reserva
+7. Listar registros
+8. Habilitar o deshabilitar servicio
+9. Ejecutar demostración independiente
+0. Salir
+
+Seleccione una opción: Código reserva: Operación completada correctamente.
+
+SOFTWARE FJ
+1. Registrar cliente
+2. Registrar servicio
+3. Crear reserva
+4. Confirmar reserva
+5. Procesar reserva
+6. Cancelar reserva
+7. Listar registros
+8. Habilitar o deshabilitar servicio
+9. Ejecutar demostración independiente
+0. Salir
+
+Seleccione una opción: Código reserva: Descuento % [0]: Impuesto % [0]: Importe procesado: $ 107100.00 COP
+
+SOFTWARE FJ
+1. Registrar cliente
+2. Registrar servicio
+3. Crear reserva
+4. Confirmar reserva
+5. Procesar reserva
+6. Cancelar reserva
+7. Listar registros
+8. Habilitar o deshabilitar servicio
+9. Ejecutar demostración independiente
+0. Salir
+
+Seleccione una opción: 
+CLIENTES:
+  - Cliente C001: Ana
+
+SERVICIOS:
+  - Sala S001: Sala principal, capacidad 10, $ 50000/hora
+
+RESERVAS:
+  - Reserva R001: cliente C001, servicio S001, 2 hora(s), estado PROCESADA
+
+SOFTWARE FJ
+1. Registrar cliente
+2. Registrar servicio
+3. Crear reserva
+4. Confirmar reserva
+5. Procesar reserva
+6. Cancelar reserva
+7. Listar registros
+8. Habilitar o deshabilitar servicio
+9. Ejecutar demostración independiente
+0. Salir
+
+Seleccione una opción: Sesión finalizada. Los registros en memoria se descartan.

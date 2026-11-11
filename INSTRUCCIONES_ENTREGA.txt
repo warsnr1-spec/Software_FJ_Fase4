@@ -1,0 +1,44 @@
+SOFTWARE FJ - FASE 4 UNAD
+GUÍA FINAL DE PUBLICACIÓN Y ENTREGA
+
+1) DESCOMPRIMIR
+- Descomprime Software_FJ_Fase4.zip y abre la carpeta Software_FJ_Fase4.
+
+2) COMPROBAR QUE FUNCIONA
+- Si tienes Python instalado, abre una terminal dentro de la carpeta.
+- En Windows: py main.py --demo
+- Después: py -m unittest discover -s tests -v
+- Para usarlo tú: py main.py --menu
+- Resultado que debes comprobar: 24/24 operaciones y 37 pruebas correctas.
+- No necesitas instalar librerías externas.
+
+3) CREAR EL REPOSITORIO
+- Ingresa a https://github.com/new e inicia sesión.
+- Crea un repositorio vacío llamado Software_FJ_Fase4.
+- Elige si debe ser privado o público según te indique el tutor.
+- En el repositorio, selecciona Add file / Upload files.
+- Sube los ARCHIVOS Y CARPETAS DESCOMPRIMIDOS del proyecto (no el zip como único archivo).
+- Confirma el cambio con Commit changes.
+- Copia la dirección REAL del repositorio de la barra del navegador.
+- Para trabajo en equipo, invita a compañeros e indica que deben agregar sus aportes reales.
+
+4) COMPLETAR EL INFORME
+- Abre informe/Informe_Fase4_Software_FJ.docx en Microsoft Word.
+- Reemplaza: [ESCRIBIR NOMBRE COMPLETO], [ESCRIBIR NÚMERO DE GRUPO],
+  [ESCRIBIR NOMBRE DEL TUTOR(A)] y [ESCRIBIR FECHA DE ENTREGA].
+- Reemplaza [PEGAR AQUÍ LA URL REAL DEL REPOSITORIO DE GITHUB] por la dirección de GitHub.
+- Elimina la nota naranja "Pendiente de publicación..." una vez subido.
+- Guarda y selecciona Archivo > Exportar > Crear documento PDF.
+- Ese PDF ACTUALIZADO es el que debes entregar en el aula virtual.
+
+5) EVIDENCIAS
+- evidencias/resultado_demo.txt recoge las 24 operaciones.
+- evidencias/resultado_pruebas.txt recoge las 37 pruebas unitarias.
+- logs/software_fj.log muestra los eventos y errores capturados.
+- README.md y GUIA_DE_CODIGO.md te ayudan a explicar el programa.
+- El programa usa listas de objetos; no necesita una base de datos.
+
+IMPORTANTE
+- No se ha creado ni publicado un repositorio por tu cuenta automáticamente.
+- No se deben atribuir aportes a compañeros que no han participado.
+- El PDF incluido es un documento base: tiene datos de portada y URL pendientes.
